@@ -3,6 +3,6 @@
 NpmPipeline {
   nodeVersion = "22"
   resourceRequestMemory = "10Gi"
-  resourceLimitMemory = "10Gi"
+  resourceLimitMemory = "16Gi"
   resourceRequestCpu = "3000m"
  }
