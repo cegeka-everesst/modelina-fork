@@ -72,7 +72,7 @@
     "typescript": "4.9.5"
   },
   "scripts": {
-    "jenkins:lint": "npm lint",
+    "jenkins:lint": "npm run lint:modelina && npm run lint:cli",
     "jenkins:test": "npm run test:library && npm run test:examples && npm run test:cli",
     "jenkins:build": "npm run build:prod",
     "build": "tsc",
