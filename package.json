@@ -1,6 +1,6 @@
 {
-  "name": "@asyncapi/modelina",
-  "version": "4.2.0",
+  "name": "@asyncapi/modelina-everesst",
+  "version": "0.0.0-SNAPSHOT",
   "description": "Library for generating data models based on inputs such as AsyncAPI, OpenAPI, or JSON Schema documents",
   "license": "Apache-2.0",
   "homepage": "https://www.modelina.org",
@@ -130,6 +130,6 @@
     "format": "prettier --config .prettierrc \"./**/*.ts\" --write"
   },
   "publishConfig": {
-    "access": "public"
+    "registry": "https://nexus.everesst.cegeka.com/nexus/repository/everesst-npm/"
   }
 }
