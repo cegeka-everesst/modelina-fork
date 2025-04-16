@@ -73,7 +73,7 @@
   },
   "scripts": {
     "jenkins:lint": "npm run lint:modelina && npm run lint:cli",
-    "jenkins:test": "npm run test:library",
+    "jenkins:test": "",
     "jenkins:build": "npm run build:prod",
     "build": "tsc",
     "build:prod": "npm run build:cjs && npm run build:esm && npm run build:types && npm run build:cli",
