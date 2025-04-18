@@ -76,7 +76,7 @@
     "jenkins:test": "",
     "jenkins:version": "npm version",
     "jenkins:publish-nexus": "npm publish",
-    "jenkins:build": "npm run build:prod",
+    "jenkins:build": "npm run build:cjs && npm run build:esm && npm run build:types && npm run build:cli",
     "build": "tsc",
     "build:prod": "npm run build:cjs && npm run build:esm && npm run build:types && npm run build:cli",
     "build:cjs": "tsc",
